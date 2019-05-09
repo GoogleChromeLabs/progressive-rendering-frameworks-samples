@@ -1,0 +1,30 @@
+{
+  "name": "react-ssr-data",
+  "version": "0.0.1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node -r esm server"
+  },
+  "dependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@material-ui/core": "^3.9.3",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "buble": "^0.19.7",
+    "compression": "^1.7.4",
+    "esm": "^3.2.22",
+    "express": "^4.16.4",
+    "jss": "^9.8.7",
+    "react-jss": "^8.6.1",
+    "node-fetch": "^2.3.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "rollup": "^1.11.3",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-buble": "^0.19.6",
+    "rollup-plugin-commonjs": "^9.3.1",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-replace": "^2.2.0"
+  }
+}

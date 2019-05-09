@@ -1,0 +1,8 @@
+{
+  "packages": [
+    "react-*",
+    "angular-*",
+    "vue-*"
+  ],
+  "version": "0.0.0"
+}
