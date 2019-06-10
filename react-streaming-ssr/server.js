@@ -71,7 +71,7 @@ app.get('/', async (request, response) => {
 		if (!response.headersSent) {
 			response.writeHead(500, {
 				// @see https://twitter.com/_developit/status/1123041336054177792
-				'content-type': 'text/pain'
+				'content-type': 'text/plain'
 			});
 		}
 		response.end(String(err && err.stack || err));
@@ -114,7 +114,7 @@ app.get('/streaming', async (request, response) => {
 	}
 	catch (err) {
 		response.writeHead(500, {
-			'content-type': 'text/pain'
+			'content-type': 'text/plain'
 		});
 		response.end(String(err && err.stack || err));
 		return;
