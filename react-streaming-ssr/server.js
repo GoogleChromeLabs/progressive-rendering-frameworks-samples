@@ -81,7 +81,7 @@ app.get('/', async (request, response) => {
 app.get('/streaming', async (request, response) => {
 	try {
 		const stream = await ssr({
-			url: request.url
+			streaming: true
 		});
 		// Wait until data starts flowing to send a 200 OK,
 		// so errors don't trigger "headers already sent".
