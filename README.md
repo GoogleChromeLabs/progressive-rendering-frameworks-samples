@@ -20,3 +20,5 @@ npm start
 ```
 
 Now check out the demo on http://localhost:2048!
+
+Note: Currently not supported on latest version of Node. Tested with v10.24.1. Use nvm for quick version switch.
